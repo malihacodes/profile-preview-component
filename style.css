@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body{
+    background-image: url("./images/bg-pattern-top.svg"),url("./images/bg-pattern-bottom.svg");
+
+    background-position: -90% -500px, 170% 400px;
+    background-repeat: no-repeat;
+  background-color: hsl(185, 75%, 39%);
+  
+  background-repeat: no-repeat;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+   
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Kumbh Sans', sans-serif;
+   
+  
+    }
+
+    .city{
+
+        font-size: small;
+    }
+    .main{
+
+        width:23%;
+       
+    }
+
+
+.numb{
+
+    padding: 1.5rem;
+}
+
+    .stats{
+        display: flex;
+        justify-content: center;
+     
+        
+    }
+.top-div {
+    background-image: url(./images/bg-pattern-card.svg);
+    height: 110px;
+    border-radius: 9px 9px 0 0;
+    
+}
+
+.botton-div {
+    background-color: white;
+    height: 225px;
+    justify-content: center;
+    padding: 3rem 0 2rem 0;
+    border-radius: 0px 0px 9px 9px;
+    
+}
+
+hr{
+
+    border:1px solid rgb(219, 218, 218)
+}
+
+.blue-cirle-div {
+    
+   border: 4px solid white;
+   background-image: url(./images/image-victor.jpg);
+    border-radius: 110px;
+    width: 101px;
+    display: block;
+    height: 102px;
+    left: 47%;
+    margin: 0 auto;
+    position: absolute;
+    text-align: center;
+    top: 35%;
+
+}
+.profile{
+
+text-align: center;
+
+padding: 1.24rem;
+    
+}
+
+.name{
+
+    display: inline;
+}
+#age{
+    display: inline;
+}
+h5{
+   
+    font-size: medium;
+    text-align: center;
+}
+
+p{
+
+    text-align: center;
+    margin-bottom: 1.25rem;
+    color: hsl(0, 0%, 59%);
+  
+}
+
+.stats p{
+
+    font-size: 12px;
+}
+
+@media (max-width: 500px) {
+
+   
+
+        body{
+           
+        
+            background-position: 131% -525px, -32% 231px;
+            background-repeat: no-repeat;
+    }
+    .main{
+        width: 300px;
+    }
+
+    .blue-cirle-div{
+left:40%;
+top:33%;
+
+    }
+    }
+  
